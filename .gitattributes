@@ -1,0 +1,32 @@
+# Normalize text files
+* text=auto
+
+# Declare line endings explicitly (LF = Unix-style)
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Treat images and other binaries properly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+
+# Help GitHub Linguist detect languages accurately
+*.py linguist-language=Python
+*.html linguist-language=HTML
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.md linguist-language=Markdown
+
+# Optional: ignore notebooks or other non-repo-specific files
+.ipynb_checkpoints/ export-ignore
+
+# Exclude local files from GitHub-generated archives
+/.env export-ignore
+/venv export-ignore
+/__pycache__/ export-ignore
+

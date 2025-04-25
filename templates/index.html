@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FURIA-bot</title>
+    <link rel="icon" type="image/x-icon" href="/static/img/panther-icon.png" />
+    <script defer src="/static/js/script.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div id="logo-container">
+      <img
+        src="{{ url_for('static', filename='img/logo-furia.svg') }}"
+        alt="FURIA Logo"
+        id="furia-logo"
+      />
+    </div>
+    <div id="chat-box"></div>
+    <form id="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Digite aqui sua mensagem..."
+        autocomplete="off"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+  <footer>
+    <div id="footer">
+      <p>FURIA-bot &copy; 2025</p>
+      <p>
+        Desenvolvido por:
+        <a href="https://github.com/lucasmartins-92">Lucas Martins</a> - Eu não
+        tenho direito sobre a marca!
+      </p>
+    </div>
+  </footer>
+</html>

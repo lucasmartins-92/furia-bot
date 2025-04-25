@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and backups
+*.log
+*.bak
+
+# Environments and config
+*.env
+.env
+
+# Ignore compiled extensions
+*.so
+
+# Flask-related artifacts
+instance/
+*.db
+
+# Jupyter Notebook checkpoints (in case you ever use them)
+.ipynb_checkpoints/
