@@ -40,4 +40,14 @@ INTENTS = {
         "sabia",
         "interessante",
     ],
+    "cheering": ["torcida", "grito", "gritos", "gritar", "vamo", "bora", "torcer"],
+    "match_status": [
+        "jogo",
+        "partida",
+        "status",
+        "ao vivo",
+        "resultado",
+        "placar",
+        "score",
+    ],
 }

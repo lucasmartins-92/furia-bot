@@ -20,12 +20,14 @@ O projeto foca em **eficiência**, **código limpo**, **dados em tempo real** e 
 
 ## Principais Funcionalidades
 
-- **Elenco Atual**: Exibe jogadores e técnicos ativos, com funções e nomes reais (com tooltip ao passar o mouse).
-- **Histórico de Campeonatos**: Lista as principais conquistas da FURIA, com link direto para mais informações.
-- **Redes Sociais**: Acesso rápido ao site oficial e às principais redes da FURIA.
-- **Modo Curiosidades**: Fatos divertidos e curiosidades sobre a FURIA apresentados aleatoriamente.
-- **Experiência Conversacional**: Respostas com delay realista, mensagem de boas-vindas e interação fluida.
-- **Design Customizado**: Layout respeitando a identidade visual oficial da FURIA.
+- **Elenco Atual**: Mostra os jogadores e treinadores ativos, incluindo funções e nomes reais (com tooltips).
+- **Histórico de Campeonatos**: Lista as principais colocações da FURIA em campeonatos, com links diretos para mais informações.
+- **Redes Sociais**: Links rápidos para o site oficial e redes sociais da FURIA.
+- **Modo Curiosidades**: Fatos e curiosidades sobre a FURIA, apresentados aleatoriamente para engajar o fã.
+- **Simulador de Torcida**: Permite que fãs disparem gritos de torcida aleatórios, simulando a energia de um evento ao vivo.
+- **Modo Live Feed**: Permite ativar um fluxo simulado de atualizações em tempo real durante as partidas, criando uma experiência mais dinâmica e imersiva.
+- **Experiência Conversacional**: Respostas com delay de digitação, mensagens de boas-vindas e estrutura de conversa que simulam interações reais.
+- **Estilização Personalizada**: Identidade visual da FURIA respeitada, com logo centralizado, animações sutis e interface fluida.
 
 ---
 
@@ -41,17 +43,20 @@ O projeto foca em **eficiência**, **código limpo**, **dados em tempo real** e 
 ## Como Rodar Localmente
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/seuusuario/furia-bot.git
    cd furia-bot
    ```
 
 2. Instale as dependências:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Rode a aplicação:
+
    ```bash
    flask run
    ```
@@ -104,10 +109,10 @@ As curiosidades foram baseadas em informações públicas e verificáveis de fon
 ## Requisitos do Desafio
 
 - Criar um chatbot funcional para fãs da FURIA
-- Entregar um protótipo com integração de dados reais
-- Pensar como fã: entregar elenco, histórico, redes sociais e curiosidades
-- Respeitar o visual da marca FURIA
-- Código limpo, modular e profissional
+- Entregar um protótipo com integração de dados reais e interação dinâmica
+- Pensar como fã: disponibilizar elenco, histórico, redes sociais, curiosidades e experiência ao vivo
+- Respeitar a identidade visual da FURIA
+- Código claro, modular e profissional
 
 ---
 

@@ -8,6 +8,8 @@ from data.liquipedia_scraper import (
 from intents import INTENTS
 from social_media_links import SOCIAL_LINKS
 from trivia import TRIVIA_FACTS
+from chants import CHEERING_PHRASES
+from statuses import MATCH_STATUSES
 
 
 app = Flask(__name__)
@@ -59,6 +61,7 @@ def get_fact():
 def chat():
     user_input = request.json.get("message", "").lower()
     intent = detect_intent(user_input)
+    print(f"DEBUG: User input: '{user_input}' -> Detected intent: '{intent}'")
 
     if intent == "coach":
         coaches = get_roster_and_coaches_from_wikipedia()["coaches"]
@@ -107,6 +110,18 @@ def chat():
     elif intent == "facts":
         fact = choice(TRIVIA_FACTS)
         return jsonify({"reply": f"{fact}"})
+
+    elif intent == "cheering":
+        chant = choice(CHEERING_PHRASES)
+        return jsonify({"reply": chant})
+
+    elif intent == "match_status":
+        status = choice(MATCH_STATUSES)
+        return jsonify(
+            {
+                "reply": f"{status} Quer receber atualizações em tempo real? (Responda 'sim' ou 'não')"
+            }
+        )
 
     else:
         return jsonify({"reply": "Desculpa, ainda estou aprendendo... 😅"})

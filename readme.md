@@ -16,12 +16,14 @@ This project emphasizes **efficiency, clean code, real-time data**, and a **fan-
 
 ---
 
-##  Key Features
+## Key Features
 
 - **Current Roster**: Displays active players and coaches, including their roles and real names (with tooltips).
 - **Tournament History**: Lists FURIA’s notable championship placements with direct links for more information.
 - **Social Media Links**: Provides quick access to FURIA’s official website and main social channels.
 - **Trivia Mode**: Fun facts and curiosities about FURIA, presented randomly to enhance fan engagement.
+- **Cheering Simulator**: Fans can trigger randomized chants and celebration messages, recreating the energy of live tournaments.
+- **Live Match Feed**: Users can activate a simulated real-time feed of match updates, creating a dynamic and immersive experience.
 - **Conversational UX**: Natural typing delay, welcome messages, and structured responses create a lively interaction.
 - **Custom Styling**: FURIA’s black-and-white branding fully respected, with centered logo, subtle animations, and smooth user interface.
 
@@ -74,6 +76,8 @@ furia-bot/
 ├── intents.py
 ├── social_media_links.py
 ├── trivia.py
+├── chants.py
+├── statuses.py
 ├── requirements.txt
 ├── data
 │   └── wikipedia_scraper.py
@@ -106,8 +110,8 @@ Trivia facts are based on publicly verifiable information from reliable sources.
 ## Challenge Requirements
 
 - Create a functional chatbot for FURIA fans
-- Deliver a prototype with real data integration
-- Think like a fan: deliver roster, history, social media, and trivia
+- Deliver a prototype with real data integration and dynamic interaction
+- Think like a fan: deliver roster, history, social media, trivia, and live experience
 - Style according to FURIA’s brand
 - Clear, modular, professional code
 
@@ -120,4 +124,3 @@ Developed with passion for esports, fans, and quality software engineering.
 Lucas Martins de Andrade\
 [LinkedIn](https://www.linkedin.com/in/lucas-martins-de-andrade-64043724/)\
 [GitHub](https://github.com/lucasmartins-92)
-
