@@ -43,7 +43,7 @@ This project emphasizes **efficiency, clean code, real-time data**, and a **fan-
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/furia-bot.git
+   git clone https://github.com/lucasmartins-92/furia-bot.git
    cd furia-bot
    ```
 

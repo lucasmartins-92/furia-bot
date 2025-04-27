@@ -45,7 +45,7 @@ O projeto foca em **eficiência**, **código limpo**, **dados em tempo real** e 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seuusuario/furia-bot.git
+   git clone https://github.com/lucasmartins-92/furia-bot.git
    cd furia-bot
    ```
 
