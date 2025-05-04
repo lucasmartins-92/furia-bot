@@ -1,4 +1,13 @@
 INTENTS = {
+    "match_status": [
+        "jogo",
+        "partida",
+        "status",
+        "ao vivo",
+        "resultado",
+        "placar",
+        "score",
+    ],
     "coach": ["coach", "coaches", "treinador", "treinadores", "trainer", "trainers"],
     "history": [
         "campeonatos",
